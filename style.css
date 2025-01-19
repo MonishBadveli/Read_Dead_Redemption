@@ -7,5 +7,29 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color:#B22222;
+    background-color:#AF1E23;
+    padding: 25px 10%;
 }
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0px 50px;
+}
+.nav-links a{
+    color:black;
+    text-decoration: none;
+    font-family:'Playfair Display', 'Georgia', 'Times New Roman', serif ;
+    font-weight: 700;
+    
+}
+.nav-links li a:hover{
+    transition: 0.5ms;
+    color: aliceblue;
+    
+}
+.logo {
+    width: 100px;
+}
+
+
