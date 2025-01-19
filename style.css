@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -19,17 +20,36 @@ header{
 .nav-links a{
     color:black;
     text-decoration: none;
-    font-family:'Playfair Display', 'Georgia', 'Times New Roman', serif ;
     font-weight: 700;
-    
 }
 .nav-links li a:hover{
     transition: 0.5ms;
-    color: aliceblue;
+    color: white;
     
 }
 .logo {
     width: 100px;
 }
+.main-section{
+    background-color:black;
+    padding: 40px 10%;
+}
+.content{
+    display: flex;
+    font-size: 78px;
+    font-family:;
+    color:white;
+    font-weight: 900;
 
+}
+.Main-Content-Text{
+    color: white;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.content-image > img{
+    width: 650px;
+    height: auto;
+    padding-left:100px;
+}
 
